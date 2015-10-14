@@ -1,0 +1,476 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .slogan1{
+        font-size: 35px;
+    }
+
+    .slogan2{
+        font-size: 26px;
+    }
+
+    .cons{
+        font-size: 17px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .slogan1{
+        font-size: 29px;
+    }
+
+    .slogan2{
+        font-size: 26px;
+    }
+
+    .cons{
+        font-size: 16px;
+
+    }
+
+    .agreement1 li img {
+        width: 200px;
+    }
+
+    .layer {
+        margin-top: 27px;
+        left: 9px;
+    }
+
+    .get_rid span {
+        margin-top: 20px;
+    }
+
+    .sot{
+        text-align: left;
+        margin-left: -15px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .slogan1{
+        font-size: 22px;
+    }
+
+    .slogan2{
+        font-size: 19px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    .phone_number{
+        width: 68%;
+    }
+
+    .cons{
+        width: 68%;
+        float: none;
+    }
+
+    .phone{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .button{
+        text-align: center;
+    }
+
+    .screen2_title {
+        font-size: 27px;
+    }
+
+    .list{
+        padding-left: 15px;
+    }
+
+    .problem a{
+        font-size: 24px;
+    }
+
+    .steep_ul > li{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .agreement1 li {
+        width: 46%;
+        text-align: center;
+    }
+
+    .cause span {
+        padding-bottom: 20px;
+    }
+    .agreement1 li img {
+        width: 248px;
+    }
+
+    .get_rid {
+        display: -webkit-box;
+    }
+
+    .lic{
+        padding-top: 26px;
+        padding-bottom: 9px;
+        text-align: center !important;
+    }
+
+    .sot {
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    .form {
+        top: -287px;
+        font-size: 33px;
+        padding: 25px 35px 55px 35px;
+        text-align: center;
+        left: 140px;
+    }
+
+    .fiz {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .your {
+        margin-top: -93px;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .agreement1 li {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .lic{
+        padding-top: 26px;
+        padding-bottom: 9px;
+        text-align: center !important;
+    }
+
+    .sot {
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    .form {
+        top: -287px;
+        font-size: 33px;
+        padding: 25px 35px 55px 35px;
+        text-align: center;
+        left: 78px;
+    }
+
+    .fiz {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .your {
+        margin-top: -93px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .slogan1{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .slogan2{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    .phone_number{
+        width: 100%;
+    }
+
+    .cons{
+        width: 100%;
+        padding: 8px 16px;
+    }
+
+    .screen2_title {
+        font-size: 22px;
+    }
+
+    .list > li{
+        padding-left: 0;
+        font-size: 15px;
+    }
+
+    .problem a{
+        font-size: 13px;
+        padding: 10px 5px;
+    }
+
+    .steep_ul > li{
+        width: 100%;
+    }
+
+    .layer{
+        display: none;
+    }
+
+    .agreement1 li {
+        text-align: center;
+    }
+
+    .steep_ul {
+        margin: 15px 0 0 -15px;
+    }
+
+    .get_rid {
+        text-align: center;
+        display: -webkit-box;
+    }
+
+    .get_rid span {
+        margin-top: 0;
+    }
+
+    .sot {
+        padding-top: 0;
+    }
+
+    .lic{
+        padding-top: 26px;
+        padding-bottom: 15px;
+        text-align: center !important;
+    }
+
+    .form {
+        top: -277px;
+        font-size: 33px;
+        left: 32px;
+        text-align: center;
+        padding: 25px 35px 45px 35px;
+    }
+
+    .fiz {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .your {
+        margin-top: -93px;
+    }
+}
+
+
+
+@media only screen and (max-width : 390px) {
+    .agreement1 li {
+        text-align: left;
+    }
+
+    .lic{
+        padding-top: 26px;
+        padding-bottom: 15px;
+        text-align: center !important;
+    }
+
+    .form {
+        top: -277px;
+        font-size: 29px;
+        text-align: center;
+        padding: 25px 20px 45px 20px;
+    }
+
+    .fiz {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .your {
+        margin-top: -93px;
+    }
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .slogan1{
+        font-size: 14px;
+        padding: 9px 6px;
+        margin: 0 -15px;
+    }
+
+    .slogan2{
+        margin: 0 -15px;
+        font-size: 13px;
+        padding: 10px 6px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .phone_number{
+        width: 100%;
+        font-size: 12px;
+
+    }
+
+    .cons{
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .screen2_title {
+        font-size: 18px;
+    }
+
+    .problem {
+        padding: 0;
+        margin-left: -15px;
+    }
+
+    .problem a{
+        display: inline-block;
+    }
+
+    .list{
+        margin-right: -25px;
+    }
+
+    .agreement1 li img {
+        width: 218px;
+    }
+
+    .agreement1{
+        margin-left: -45px;
+    }
+
+    .confidetially {
+        padding: 0;
+    }
+
+    .screen3_text {
+        font-size: 21px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .title_screen3 {
+        font-size: 27px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .text_block_bg span {
+        font-size: 18px;
+        padding: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .steep_ul {
+        margin: 0 -15px 0 -45px;
+    }
+
+    .screen6_title_bg {
+        font-size: 26px;
+    }
+
+    .get_rid span {
+        font-size: 26px;
+        margin-top: 0;
+        line-height: 30px;
+
+    }
+
+    .layer{
+        display: none;
+    }
+
+    .sot {
+        padding-top: 0;
+    }
+
+    .lic{
+        padding-top: 26px;
+        padding-bottom: 15px;
+        text-align: center !important;
+    }
+
+    .form {
+        top: -277px;
+        left: 0;
+        font-size: 25px;
+        text-align: center;
+        padding: 25px 0 45px 0;
+    }
+
+    .fiz {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .your {
+        margin-top: -85px;
+    }
+
+    .get_rid {
+        display: block;
+    }
+
+    .letter{
+        margin-bottom: 40px;
+    }
+
+    .user, .document {
+        margin-bottom: 40px;
+    }
+
+    .money{
+        margin-bottom: 50px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
